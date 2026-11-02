@@ -1,6 +1,6 @@
 # GitHub PR Dependency Map 069
 
-Revalidated against the GitHub API on 2026-11-02. No merge or branch mutation was performed.
+Revalidated against the GitHub API on 2026-11-02. The baseline had 60 open PRs; four documentation PRs were added during this mission, so the current public total is 64. No merge or branch mutation was performed.
 
 ## Fabuloom
 
