@@ -539,6 +539,28 @@
     "classification": "UNKNOWN"
   },
   {
+    "repository": "LocalCoder",
+    "number": 1,
+    "title": "docs: define LocalCoder public status",
+    "url": "https://github.com/0xTPZ/LocalCoder/pull/1",
+    "draft": false,
+    "head": "docs/portfolio-069-status",
+    "base": "main",
+    "changed_files": 1,
+    "classification": "UNKNOWN"
+  },
+  {
+    "repository": "topazio-microscope",
+    "number": 3,
+    "title": "docs: clarify Microscope usage and distribution boundary",
+    "url": "https://github.com/0xTPZ/topazio-microscope/pull/3",
+    "draft": false,
+    "head": "docs/portfolio-069-usage",
+    "base": "main",
+    "changed_files": 2,
+    "classification": "UNKNOWN"
+  },
+  {
     "repository": "topazio-microscope",
     "number": 2,
     "title": "Topázio Repair Assistant: análise visual local e documentação de reparos",
@@ -559,6 +581,28 @@
     "base": "main",
     "changed_files": 21,
     "classification": "UNKNOWN"
+  },
+  {
+    "repository": "TopazioMobileServerOS",
+    "number": 1,
+    "title": "docs: define Mobile Server OS evidence boundary",
+    "url": "https://github.com/0xTPZ/TopazioMobileServerOS/pull/1",
+    "draft": false,
+    "head": "docs/portfolio-069-status",
+    "base": "main",
+    "changed_files": 1,
+    "classification": "UNKNOWN"
+  },
+  {
+    "repository": "voltrama-studio",
+    "number": 22,
+    "title": "docs: clarify Voltrama public status",
+    "url": "https://github.com/0xTPZ/voltrama-studio/pull/22",
+    "draft": false,
+    "head": "docs/portfolio-069-status",
+    "base": "main",
+    "changed_files": 3,
+    "classification": "DEPENDENT;NEEDS_TESTING"
   },
   {
     "repository": "voltrama-studio",

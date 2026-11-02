@@ -10,7 +10,7 @@ foreach ($repo in $repos) {
   }
 }
 $rows | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 (Join-Path $PSScriptRoot 'GITHUB-PR-MATRIX-068.json')
-$md = @('# GitHub PR Decision Matrix 068','','Generated directly from the GitHub API on 2026-11-02. Open PRs analyzed: ' + $rows.Count + '.','', '| Repo | PR | Draft | Title | Base <- head | Files | Classification |','|---|---:|:---:|---|---|---:|---|')
+$md = @('# GitHub PR Decision Matrix 068','','Generated directly from the GitHub API on 2026-11-02. Open PRs analyzed: {0}.' -f $rows.Count,'', '| Repo | PR | Draft | Title | Base <- head | Files | Classification |','|---|---:|:---:|---|---|---:|---|')
 foreach ($row in $rows) {
   $repoName = $row.repository; $number = $row.number; $draft = $row.draft; $title = $row.title.Replace('|','/'); $base = $row.base; $head = $row.head; $files = $row.changed_files; $class = $row.classification; $url = $row.url
   $md += ('| {0} | [{1}]({2}) | {3} | {4} | ``{5}`` <- ``{6}`` | {7} | {8} |' -f $repoName,$number,$url,$draft,$title,$base,$head,$files,$class)

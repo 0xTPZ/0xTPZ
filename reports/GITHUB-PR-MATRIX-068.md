@@ -1,11 +1,4 @@
-# GitHub PR Decision Matrix 068
-
-Generated directly from the GitHub API on 2026-11-02. Open PRs analyzed: 
-60
-.
-
-| Repo | PR | Draft | Title | Base <- head | Files | Classification |
-|---|---:|:---:|---|---|---:|---|
+# GitHub PR Decision Matrix 068  Generated directly from the GitHub API on 2026-11-02. Open PRs analyzed: 64.
 | fabuloom | [52](https://github.com/0xTPZ/fabuloom/pull/52) | True | feat: add Fabuloom Music Studio V1 | ``mission-034-bt001-behind-the-scenes`` <- ``mission-035-music-studio-v1`` | 14 | NEEDS_TESTING |
 | fabuloom | [51](https://github.com/0xTPZ/fabuloom/pull/51) | True | feat: BT-001 por trás das Crônicas de Topázio | ``mission-033-cb002-finalization`` <- ``mission-034-bt001-behind-the-scenes`` | 5 | NEEDS_TESTING |
 | fabuloom | [50](https://github.com/0xTPZ/fabuloom/pull/50) | True | feat: Missão 033 — finalizar CB-002 | ``mission-032-santa-expressive-v1`` <- ``mission-033-cb002-finalization`` | 5 | NEEDS_TESTING |
@@ -55,8 +48,12 @@ Generated directly from the GitHub API on 2026-11-02. Open PRs analyzed:
 | fabuloom | [3](https://github.com/0xTPZ/fabuloom/pull/3) | False | feat: add interactive character stage | ``mission-005-kokoro-integration-v0.2`` <- ``mission-006-character-stage-v0.3`` | 19 | UNKNOWN |
 | fabuloom | [2](https://github.com/0xTPZ/fabuloom/pull/2) | False | feat: integrate Kokoro PT-BR provider | ``mission-004-core-v0.1`` <- ``mission-005-kokoro-integration-v0.2`` | 17 | UNKNOWN |
 | fabuloom | [1](https://github.com/0xTPZ/fabuloom/pull/1) | False | feat: establish Fabuloom Core V0.1 contracts | ``main`` <- ``mission-004-core-v0.1`` | 15 | UNKNOWN |
+| LocalCoder | [1](https://github.com/0xTPZ/LocalCoder/pull/1) | False | docs: define LocalCoder public status | ``main`` <- ``docs/portfolio-069-status`` | 1 | UNKNOWN |
+| topazio-microscope | [3](https://github.com/0xTPZ/topazio-microscope/pull/3) | False | docs: clarify Microscope usage and distribution boundary | ``main`` <- ``docs/portfolio-069-usage`` | 2 | UNKNOWN |
 | topazio-microscope | [2](https://github.com/0xTPZ/topazio-microscope/pull/2) | False | Topázio Repair Assistant: análise visual local e documentação de reparos | ``v0.2`` <- ``feature/repair-assistant`` | 22 | UNKNOWN |
 | topazio-microscope | [1](https://github.com/0xTPZ/topazio-microscope/pull/1) | False | Topázio Microscope v0.2: responsive inspection workspace | ``main`` <- ``v0.2`` | 21 | UNKNOWN |
+| TopazioMobileServerOS | [1](https://github.com/0xTPZ/TopazioMobileServerOS/pull/1) | False | docs: define Mobile Server OS evidence boundary | ``main`` <- ``docs/portfolio-069-status`` | 1 | UNKNOWN |
+| voltrama-studio | [22](https://github.com/0xTPZ/voltrama-studio/pull/22) | False | docs: clarify Voltrama public status | ``main`` <- ``docs/portfolio-069-status`` | 3 | DEPENDENT;NEEDS_TESTING |
 | voltrama-studio | [19](https://github.com/0xTPZ/voltrama-studio/pull/19) | True | M1-001C: functional private inventory workspace | ``m1-001a/private-component-inventory`` <- ``m1-001c/private-inventory-ui`` | 17 | DEPENDENT;NEEDS_TESTING |
 | voltrama-studio | [17](https://github.com/0xTPZ/voltrama-studio/pull/17) | True | M1-001A: private component inventory foundation | ``m0-003/private-projects`` <- ``m1-001a/private-component-inventory`` | 4 | DEPENDENT;NEEDS_TESTING |
 | voltrama-studio | [16](https://github.com/0xTPZ/voltrama-studio/pull/16) | True | M1-001B: public components reference library | ``m0-005/publication-contract`` <- ``m1-001b/public-component-library`` | 5 | DEPENDENT;NEEDS_TESTING |
