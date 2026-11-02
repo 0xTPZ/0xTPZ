@@ -20,7 +20,7 @@ The private-project/component-inventory chain (#8, #17, #19) and architecture pr
 
 - Branch commit: `049b76f`
 - Draft integration PR: [Voltrama #23](https://github.com/0xTPZ/voltrama-studio/pull/23)
-- No merge into `main`
+- No product/functional merge into `main`; the pre-existing documentation PR #3 was observed as merged by the final API check (`c9d9975`) and contained documentation-only changes.
 
 ### Available functionality
 
